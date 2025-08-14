@@ -86,7 +86,6 @@ window.geometry("500x400") # Définir une taille de fenêtre
 sender_label = tk.Label(window, text="Votre adresse e-mail Gmail:") 
 sender_label.pack(pady=5) 
 sender_entry = tk.Entry(window, width=50) 
-sender_entry.insert(0, "funfulgence@gmail.com")
 sender_entry.pack() 
 # Widgets du destinataire 
 recipient_label = tk.Label(window, text="Adresse e-mail dudestinataire:") 
