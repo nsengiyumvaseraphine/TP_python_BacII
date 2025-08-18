@@ -45,7 +45,7 @@ def send_email():
  
     # Remplacez ceci par votre mot de passe d'application 
 
-    sender_password = 'qxun hkhd sbvt hyhr'
+    sender_password = 'rqqe tjnm azpd isho'
  
     if not all([sender_email, recipient_email, subject,email_body, sender_password]): 
         messagebox.showwarning("Champs manquants", "Veuillez remplir tous les champs.") 
@@ -86,6 +86,7 @@ window.geometry("500x400") # Définir une taille de fenêtre
 sender_label = tk.Label(window, text="Votre adresse e-mail Gmail:") 
 sender_label.pack(pady=5) 
 sender_entry = tk.Entry(window, width=50) 
+sender_entry.insert(0, "nsengiyumvaseraphine123@gmail.com")  # Insérer une adresse e-mail par défaut
 sender_entry.pack() 
 # Widgets du destinataire 
 recipient_label = tk.Label(window, text="Adresse e-mail dudestinataire:") 
